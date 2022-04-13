@@ -1,0 +1,16 @@
+.episodeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 6px;
+  row-gap: 6px;
+  overflow-y: scroll;
+  max-height: 120px;
+  margin-bottom: 20px;
+}
+.episodeNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  background-color: #61dafb;
+}

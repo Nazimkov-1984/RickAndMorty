@@ -1,0 +1,56 @@
+.cardsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.charactersGridContainer {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 16px;
+  grid-gap: 16px;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.listPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 0 20px;
+}
+.paginationItem {
+  padding: 4px;
+  background-color: chartreuse;
+  border-radius: 4px;
+  margin-right: 16px;
+  border: 1px solid #282c34;
+}
+.paginationItem:last-child {
+  margin-right: 0;
+}
+.paginationItem {
+  cursor: pointer;
+}
+.activePage {
+  background-color: #61dafb;
+}
+.buttonPagination {
+  border: 1px solid #282c34;
+  border-radius: 4px;
+  margin-right: 6px;
+  padding: 6px 0;
+  width: 94px;
+}
+.buttonPagination:hover {
+  cursor: pointer;
+}
+.buttonDisabled {
+  pointer-events: none;
+  background-color: lightgrey;
+}

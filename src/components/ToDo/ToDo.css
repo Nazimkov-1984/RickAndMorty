@@ -1,0 +1,22 @@
+input {
+  margin-right: 10px;
+}
+select {
+  margin-right: 20px;
+}
+button {
+  height: 25px;
+  padding: 0 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+.imageTrash {
+  width: 25px;
+  height: 25px;
+}
+.imageTrash:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 290px;
+  transition: all 0.6s ease;
+}
+.cardContainer:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.rowWrapper {
+  display: flex;
+  font-family: "Grape Nuts", cursive;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.fieldName {
+  margin-right: 10px;
+}
+.cardDescription {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #6bab0d;
+}
+.cardImage {
+  margin-bottom: 8px;
+  width: 150px;
+  height: 150px;
+}

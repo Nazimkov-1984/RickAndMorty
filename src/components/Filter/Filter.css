@@ -1,0 +1,32 @@
+.filterContainer {
+  display: flex;
+  justify-content: center;
+}
+.itemWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  padding: 0;
+  margin: 0;
+}
+.input {
+  margin-right: 10px;
+}
+.sectionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+  border: 1px solid #282c34;
+  padding: 6px;
+}
+.sectionWrapper:last-child {
+  margin-right: 0;
+}
+.sectionTitle {
+  font-family: "Grape Nuts", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}

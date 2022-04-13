@@ -1,0 +1,35 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.modalBody {
+  padding: 20px;
+  width: 400px;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 560px;
+}
+.modalImg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.modalButton {
+  background-color: #61dafb;
+  border-radius: 4px;
+}
+.modalButton:hover {
+  cursor: pointer;
+}

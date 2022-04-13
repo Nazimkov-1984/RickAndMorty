@@ -1,0 +1,36 @@
+.navBarContainer {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  background-color: #61bbfb;
+}
+.logo {
+  width: 216px;
+  height: 100px;
+}
+.linkRoute {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 60px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: chartreuse;
+  font-family: Arial, sans-serif;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.7s ease;
+  color: black;
+}
+.linkRoute:hover {
+  background-color: #91a978;
+  text-decoration: none;
+  color: black;
+}
+.active {
+  border: 1px solid darkmagenta;
+}
